@@ -1,0 +1,28 @@
+body {
+    font-family: Algerian;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    Color: rgb(9, 0, 128);
+}
+
+header {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        background-color: #f8f9fa;
+    }
+
+    header {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina web</title>
+    <style>
+        body {
+            font-family: Algerian;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #mensaje1, #mensaje2 {
+            display: none;
+            font-size: 20px;
+            color: rgb(180, 12, 54);
+            margin-top: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=NombreDeFuente&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Página Web Adaptable</h1>
+    </header>
+    <main>
+        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+        <p id="mensaje1">¡Bienvenido a mi página web!</p>
+
+        <button onclick="ocultarMensaje()">Ocultar mensaje</button>
+        <p id="mensaje2">¡Hasta luego!</p>
+
+        <p>Este es un ejemplo de una página web adaptable.</p>
+        <header>
+            <h3>Pagina creada por Rommel Ortiz Chavez</h3>
+        </header>
+    </main>
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje1").style.display = "block";
+            document.getElementById("mensaje2").style.display = "none";
+        }
+        function ocultarMensaje() {
+            document.getElementById("mensaje1").style.display = "none";
+            document.getElementById("mensaje2").style.display = "block";
+        }
+    </script>
+</body>
+</html>
